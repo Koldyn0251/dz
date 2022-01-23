@@ -1,0 +1,146 @@
+    body {
+    padding: 0px;
+    margin: 0px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    }
+    .container {
+    width: 1170px;
+    margin: 0 auto;
+    }
+    .header {
+    background: rgba(77,192,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 68px;
+    padding-bottom: 150px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .title {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        }
+    span {
+        font-size: 59px;
+    }
+    .offer {
+        color: #fff;
+        margin-top: 90px;
+        width: 575px;
+    }
+    .btn {
+        color: #000;
+        font-family: "Monserrat", sans-serif;
+        font-weight: 900;
+        background: #ffd429;
+        display: block;         
+        width: 220px;        
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        transition: all 0.5s ease;
+    }
+    .btn:hover {
+        background: #20e516;        
+    }
+        .intro {
+        font-family: "Open Sans", sans-serif;
+        margin-top: 60px;
+        margin-bottom: 45px;
+    }
+    p {
+        line-height: 1.7em;
+    }
+    .dream {
+        margin-top: 10px;
+    }
+    .future {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .section-future {
+        font-family: "Ubuntu";
+        font-weight: 900;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 65px;        
+    }
+    .wishes {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wish-title {
+        font-size: 19px;
+    }
+    .wish {
+        width: 305px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    .wish-time {
+        background: url(../img/icon1.jpg) no-repeat top;
+    }
+    .wish-travel {
+        background: url(../img/icon2.jpg) no-repeat top;
+    }
+    .wish-value {
+        background: url(../img/icon3.jpg) no-repeat top;
+    }
+    .mail {
+        padding-top: 125px;
+        background: #ecf3f8;
+    }
+    .ticket {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: "Ubuntu", sans-serif;
+        padding-bottom: 65px;
+    }
+    .mail {
+        text-align: center;
+        margin-bottom: 100px; 
+    }
+    .input {
+        width: 340px;
+        border: 1px solid #bbbbbb;
+        height: 50px;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 15px;
+        padding-left: 28px;
+        margin-bottom: 15px;
+    }
+    .wrapper-buttons {
+        padding-left: 350px;
+        width: 500px;        
+    }
+    .btn-form {
+        width: 340px;
+        height: 50px;
+        text-align: center;
+        margin-left: 80px;
+        border: 0px;        
+    }
+    .credits {
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+    }
+    .footer {
+        border-top: 100px;
+        padding: 60px;
+        background: #164d7a;
+        letter-spacing: 0.1em;
+    }
